@@ -10,9 +10,10 @@ readme = "README.md"
 requires-python = ">=3.9"
 license = {text = "MIT"}
 authors = [
-    {name = "Firsthome Team", email = "dev@firsthome.co.kr"},
+    {name = "Rim Choi", email = "hyerimc858@gmail.com"},
 ]
 keywords = ["decorator", "flowchart", "tracing", "visualization", "mermaid"]
+urls = {Homepage = "https://github.com/rimi0108/logikit"}
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",

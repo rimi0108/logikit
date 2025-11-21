@@ -1,5 +1,5 @@
 """
-Logikit - 함수 실행을 자동으로 도식화하는 Python 패키지
+Logikit - Python package for automatically visualizing function execution
 """
 from setuptools import find_packages, setup
 
@@ -9,12 +9,12 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="logikit",
     version="0.1.0",
-    author="Firsthome Team",
-    author_email="dev@firsthome.co.kr",
+    author="Rim Choi",
+    author_email="hyerimc858@gmail.com",
     description="Automatically trace function execution and generate flowcharts with a Python decorator",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/firsthome/logikit",
+    url="https://github.com/rimi0108/logikit",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 3 - Alpha",

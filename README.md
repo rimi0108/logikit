@@ -19,7 +19,7 @@ Or directly from the project root:
 pip install -e ./logikit
 ```
 
-### PyPI Distribution (Future)
+### PyPI Installation
 
 ```bash
 pip install logikit
