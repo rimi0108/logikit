@@ -16,8 +16,14 @@ Usage:
         return True
 """
 
-from logikit.decorator import logikit
-from logikit.trace import TraceStep, generate_flowchart_from_trace
+# Import decorator - use relative import
+from .decorator import logikit
+
+# Import trace classes and functions - use relative import
+from .trace import TraceStep
+from .trace import generate_flowchart_from_trace
 
 __version__ = "0.1.0"
+
+# Explicitly make available at package level
 __all__ = ["logikit", "TraceStep", "generate_flowchart_from_trace"]
