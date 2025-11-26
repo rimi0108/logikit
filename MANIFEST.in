@@ -1,5 +1,4 @@
 include README.md
 include LICENSE
 recursive-include logikit *.py
-recursive-include logikit *.pyi
 

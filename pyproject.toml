@@ -36,5 +36,5 @@ dev = [
 packages = ["logikit"]
 
 [tool.setuptools.package-data]
-logikit = ["py.typed", "*.pyi"]
+logikit = ["py.typed"]
 
